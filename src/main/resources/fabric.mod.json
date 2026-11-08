@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "ccasino",
+	"version": "${version}",
+	"name": "Craft Casino",
+	"description": "/ccasino öffnet einen animierten Casino-Tisch: Slots, Roulette, Blackjack und Crash – mit virtuellen Chips.",
+	"authors": ["Craft Casino"],
+	"license": "MIT",
+	"icon": "assets/ccasino/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["net.ccasino.CasinoMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=26.1 <26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
